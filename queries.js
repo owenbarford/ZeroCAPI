@@ -1,3 +1,5 @@
+// Calling the PG driver directly using SQL queries as opposed to using an ORM.
+
 const Pool = require('pg').Pool
 const DbConfig = require('./dbconfig')
 const pool = new Pool({
